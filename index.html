@@ -1,4 +1,3 @@
-https://github.com/Myaskin/Editors-School.git
 <!DOCTYPE html>
 <html lang="ru">
     <head>
@@ -12,29 +11,94 @@ https://github.com/Myaskin/Editors-School.git
         <style>
             .page {
                 width: 1000px;
-                margin: 0 auto;
+                margin: auto;
                 font-family: 'Open Sans', sans-serif;
             }
-            .header {
+
+            .header_text {
                 display: flex;
+                            
+                margin: 0;
+                padding-left: 92px;
+                padding-top: 47px;
+                padding-bottom: -92px;
+                font-weight: 600;
+                font-size: 22px;
+                line-height: 30px;
             }
-            .footer {
-                display: flex;
-            }
-            .footer_menu {
+            .header_logo {
                 display: flex;
                 margin: 0;
-                padding-left: 164px;
-                padding-top: 67px;
+                padding-left: 80px;
+                font-weight: 700;
+                font-size: 180px;
+                line-height: 100px;
+                
             }
-            .header_list {
+            .header_text2 {
                 display: flex;
-                list-style: none;
-                gap: 130px;
+                margin: 0;
+                padding-left: 92px;
+                padding-top: 31px;
+                font-weight: 600;
+                font-size: 22px;
+                line-height: 30px;
+                width: 214px;
             }
-            .mein {
+            .header_button{
+                position: absolute;
+                left: 900px;
+                top: 18px;
+                color: #000000;
+                text-decoration: none;
+                user-select: none;
+                background: #FFFF;
+                border: 1.8125px solid #000000;
+                border-radius: 9.0625px;
+                font-weight: 600;
+                font-size: 22px;
+                line-height: 32px;
+                padding: 15px 19px;
+                
+            }
+            .header_button:hover {
+                background: #CFBBBB;
+            }
+            .wrap{
+                width: 1000px;
+                display: flex;
+                flex-direction: row;
+               
+            }
+            .cardigan{
+                margin: 0;
+                padding-left: 92px;
+                padding-top: 58px;
+                width: 355px;
+                height: 540px;
+    
+            }
+            .yapitalas {
+                margin: 0;
+                padding-top: 58px;
+                padding-left: 18px;
+                height: 591.75px;
+            }
+            .content_text_head1 {
+                margin: 0;
+                padding-top: 7px;
+                padding-left: 55px;
+                width: 317px;
+                letter-spacing: 0.035em;
+            }
+            .content_text_reg1 {
+                margin: 0;
+                width: 825px;
+                padding-left: 55px;
+                letter-spacing: 0.035em;
+                padding-top: 30px;
+            }
 
-            }
             .head_text {
             display: flex;
             margin: 0;
@@ -49,61 +113,70 @@ https://github.com/Myaskin/Editors-School.git
             font-weight: 400;
             font-size: 22px;
             line-height: 124.18%;
-            padding-top: 23px;
-
-            
+            padding-bottom: 60px;
             }
+            
+            .main_button{
+                margin-left: 386px;
+                color: #000000;
+                text-decoration: none;
+                user-select: none;
+                background: #FFFF;
+                border: 1.8125px solid #000000;
+                border-radius: 9.0625px;
+                font-weight: 600;
+                font-size: 22px;
+                line-height: 32px;
+                padding: 15px 19px;
+                
+            }
+            .main_button:hover {
+                background: #CFBBBB;
+            }
+            .footer {
+                display: flex;
+            }
+
             .foot_text {
                 margin: 0;
                 font-weight: 400;
                 font-size: 22px;
                 line-height: 40px;
+     
             }
 
-            .main_picture {
+            .footer_list {
                 display: flex;
+                flex-direction: row;
                 margin: 0;
-                padding-left: 60px;
+                gap: 165px;
+                padding-top: 68px;
+                padding-left: 145px;
+                padding-right: 101px;
+                list-style: none;
+  
             }
-            .header_banner {
-                margin: 0;
-                padding-bottom: 112px;
-                padding-top: 10px;
+            .footer_list li a {
+            display: block;
+            text-decoration: none;
+    
             }
-            .content_text_head1 {
-                display: flex;
-                margin: 0;
-                padding-top: 94px;
-                padding-left: 83px;
-                padding-right: 133px;
-                width: 317px;
-            }
-            .content_text_reg1 {
-                display: flex;
-                margin: 0;
-                width: 825px;
-                padding-left: 83px;
-            }
-            .button {
-                display: flex;
-                margin: 0;
-                padding-left: 359px;
-                padding-top: 50px;
-
-            }
-            .header_list {
-                margin: 0;
-                padding-left: 0px;
-            }
-
+            
         </style>
     </head>
     <body class="page">
-        <header class="header">
-            <img class="header_banner" src="img/banner.jpg">
+        <header>
+            <a href="#" class="header_button">Заказать доставку</a>
+            <p class="header_text">Шерстяная одежда</p>
+            <h1 class="header_logo">вязань</h1>
+            <p class="header_text2">Наша шерсть для вашего уюта</p>
         </header>
-        <main class="main">
-<img class="main_picture" src="img/main pic.jpg">
+    <main>
+        <div class="wrap">
+            <img class="cardigan" src="img/cardigan.png">
+            <img class="yapitalas" src="img/u_menya_ne_poluchilos.png">
+        </div>
+            
 <div class="content_text_head1">
 <h1 class="head_text">Наше 
     производство</h1>
@@ -111,18 +184,18 @@ https://github.com/Myaskin/Editors-School.git
 <div class="content_text_reg1">
     <p class="reg_text">Наша фабрика находится в посёлке Шумаш Рязанской области. Там же пасуться наши овечки. Вы всегда можете приехать к нам на экскурсию и посмотреть, как делаются свитера.</p>
 </div>
-    <img class="button" src="img/button.jpg">
+<p>
+    <a href="#" class="main_button">Заказать доставку</a>
+    </p>
         </main>
         <footer class="footer">
-            <div>
-            <nav class="footer_menu">
-                <ul class="header_list">
-                    <li class="foot_text">Каталог</li>
-                    <li class="foot_text">Вопросы и ответы</li>
-                    <li class="foot_text">О фабрике</li>
+            <nav>
+                <ul class="footer_list">
+                    <li class="foot_text"><a href="#">Каталог</a></li>
+                    <li class="foot_text"><a href="#">Вопросы и ответы</a></li>
+                    <li class="foot_text"><a href="#">О фабрике</a></li>
                 </ul>
             </nav>
-        </div>
         </footer>
     </body>
 </html>
